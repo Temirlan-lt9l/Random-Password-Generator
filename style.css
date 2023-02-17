@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #4285f4;
+ }
+ .copyAll{
+    font-family: 'Material Symbols Rounded';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+ }
+ .container{
+    width: 450px;
+    background-color: #ffffff;
+    border-radius: 10px;
+ }
+ .container h2{
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 1rem 1.17rem;
+    border-bottom: 1px solid #d4dbe5;
+ }
+ .wrapper{
+    margin: 1.25rem 1.75rem;
+ }
+ .input-box {
+    position: relative;
+ }
+ .input-box input{
+    width: 100%;
+    height: 53px;
+    font-size: 1rem;
+    background-color: none;
+    font-weight: 400;
+    border-radius: 4px;
+    letter-spacing: 1.4px;
+    border: 1px solid #aaa;
+    padding: 0 2.8rem 0 1rem;
+ }
+ .input-box span{
+    position: absolute;
+    right: 13px;
+    cursor: pointer;
+    line-height: 53px;
+    color: #707070;
+ }
+
+ .wrapper .pass-length{
+    margin: 1.5rem 0 1.25rem;
+ }
+
+ .pass-length .details{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1.25rem;
+ }
+ .details{
+    flex-direction: column ;
+ }
+.pass-length input{
+    width: 100%;
+    height: 5px;
+}
+.pass-settings .options {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.pass-settings .options .option{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: calc(100% / 2);
+}
+
+.options .option input{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+ }
+.options .option label{
+    cursor: pointer;
+    padding-left: 0.6rem;
+}
+
+.wrapper .generate-btn{
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem 0;
+    border-radius: 5px;
+    margin: 1rem 0 1.3rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4285f4;
+}
+.wrapperLS{
+   display: flex;
+   justify-content: space-between;
+}
+
